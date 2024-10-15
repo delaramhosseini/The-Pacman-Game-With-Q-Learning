@@ -12,6 +12,8 @@ In the figure below:
 - **G** stands for ghost
 - **E** stands for empty cell (a cell becomes empty after the agent collects the dot).
 
+<img width="673" alt="Screenshot 1403-07-24 at 12 46 21" src="https://github.com/user-attachments/assets/978290be-7f8e-4e51-8a8e-89886c3a51d9">
+
 ### Q-Learning Overview
 Q-learning is a model-free reinforcement learning algorithm that enables agents to learn optimal action-selection policies through interaction with their environment. In the context of the Pacman game, the agent learns to navigate the grid, collect dots, and avoid ghosts by estimating the value of taking specific actions in various states. 
 
@@ -22,5 +24,3 @@ Q-learning is a model-free reinforcement learning algorithm that enables agents 
 3. **Learning Process**: The agent iteratively interacts with the environment, updating its Q-values using the Q-learning update rule. As the agent continues to explore and gather experiences, it converges towards an optimal policy that maximizes the collection of dots while avoiding ghosts.
 
 By applying Q-learning to the Pacman game, we aim to develop a robust AI that efficiently collects dots while navigating the challenges of the game environment.
-
-<img width="673" alt="Screenshot 1403-07-24 at 12 46 21" src="https://github.com/user-attachments/assets/978290be-7f8e-4e51-8a8e-89886c3a51d9">
